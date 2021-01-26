@@ -1,0 +1,105 @@
+html{
+    background-image: url(../backgrounds/subtlepatterns-com/light_honeycomb.png);
+}
+
+body{
+    
+    width: 76%;
+    background-color: rgba(182, 182, 182, 0.8);
+    margin-left: 12%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.font-test p:nth-child(1){
+    font-size: 3em;
+    font-style: oblique;
+    font-variant-caps: small-caps;
+    font-weight: 800;
+    color: grey;
+}
+
+.font-test p:nth-child(2){
+    font-size: 3em;
+    font-style: italic;
+    font-variant-caps: unicase;
+    font-weight: 100;
+    color: grey;
+}
+
+.font-test p:nth-child(3){
+    font-size: 3em;
+    font-variant-caps: all-petite-caps;
+    font-weight: 100;
+    color: grey;
+}
+
+.font-test p:nth-child(4){
+    font-size: 3em;
+    font-variant-caps:normal;
+    font-weight: 100;
+    color: grey;
+}
+
+.font-test p:nth-child(5){
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: 200%; /*not working*/
+    color: grey;
+}
+
+.font-test p:nth-child(6){
+    font-size: 3em;
+    font-variant-numeric: slashed-zero; /*not working*/
+    color: grey;
+}
+
+.font-test p:nth-child(7){
+    font-size: 3em;
+    font-variant-numeric: oldstyle-nums;
+    color: grey;
+}
+
+.font-test p:nth-child(8){
+    font-size: 3em;
+    font-variant-numeric: tabular-nums;
+    color: grey;
+}
+
+/*font-variant-numeric: slashed-zero;
+font-variant-numeric: tabular-nums;
+font-variant-numeric: oldstyle-nums;
+font-variant-position: sub;
+font-variant-position: super;
+
+font-variarion-settings: provides low-level control over variable font characteristics, by specifying the four letter axis names of the characteristics you want to vary, along with their values
+font-variation-settings: 'wght' 50;
+font-variation-settings: 'wdth' 125;
+font-variation-settings: 'slnt' 50deg;   ???
+font-variation-settings: 'ital' 75deg;   ???
+and opsz  ???
+
+
+
+FOR font-weight
+Keyword values
+font-weight: normal;
+font-weight: bold;
+
+Keyword values relative to the parent
+font-weight: lighter;
+font-weight: bolder;
+
+Numeric keyword values
+font-weight: 100;
+font-weight: 200;
+font-weight: 300;
+font-weight: 400;// normal
+font-weight: 500;
+font-weight: 600;
+font-weight: 700;// bold
+font-weight: 800;
+font-weight: 900;
+
+
+*/
